@@ -19,6 +19,11 @@ export const MARKET_DATA: Stock[] = [
   { symbol: 'HDFCBANK', name: 'HDFC Bank', sector: 'Financials', price: 1742.8, previousVisitPrice: 1719.4, dayChange: 1.36, volume: 3.8, averageVolume: 3.6, volatility: 1.1, history: [1704, 1712, 1709, 1720, 1719, 1730, 1738, 1743] },
   { symbol: 'INFY', name: 'Infosys', sector: 'Technology', price: 1498.6, previousVisitPrice: 1444.9, dayChange: 3.72, volume: 1.9, averageVolume: 1.05, volatility: 2.4, history: [1430, 1445, 1438, 1461, 1445, 1470, 1484, 1499] },
   { symbol: 'ICICIBANK', name: 'ICICI Bank', sector: 'Financials', price: 1224.25, previousVisitPrice: 1214.05, dayChange: 0.84, volume: 2.1, averageVolume: 2.0, volatility: 0.9, history: [1205, 1209, 1212, 1214, 1218, 1216, 1221, 1224] },
+  { symbol: 'SBIN', name: 'State Bank of India', sector: 'Financials', price: 812.3, previousVisitPrice: 795.2, dayChange: 2.15, volume: 5.4, averageVolume: 3.2, volatility: 2.1, history: [770, 778, 785, 795, 790, 802, 808, 812] },
+  { symbol: 'TATAMOTORS', name: 'Tata Motors', sector: 'Automotive', price: 986.45, previousVisitPrice: 1004.1, dayChange: -1.76, volume: 3.7, averageVolume: 2.4, volatility: 2.7, history: [1022, 1015, 1009, 1004, 998, 1001, 990, 986] },
+  { symbol: 'WIPRO', name: 'Wipro', sector: 'Technology', price: 542.8, previousVisitPrice: 536.2, dayChange: 1.23, volume: 1.8, averageVolume: 1.4, volatility: 1.5, history: [531, 534, 532, 536, 539, 541, 540, 543] },
+  { symbol: 'BHARTIARTL', name: 'Bharti Airtel', sector: 'Telecom', price: 1788.6, previousVisitPrice: 1751.4, dayChange: 2.12, volume: 2.9, averageVolume: 2.1, volatility: 1.8, history: [1720, 1734, 1748, 1751, 1762, 1770, 1781, 1789] },
+  { symbol: 'LT', name: 'Larsen & Toubro', sector: 'Industrials', price: 3642.2, previousVisitPrice: 3610.5, dayChange: 0.88, volume: 1.6, averageVolume: 1.3, volatility: 1.2, history: [3570, 3590, 3602, 3611, 3625, 3618, 3630, 3642] },
 ]
 
 export function attentionScore(stock: Stock, settings = { priceThreshold: 2, minimumScore: 40, volumeSensitivity: 1.5 }) {

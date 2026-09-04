@@ -1,2 +1,2 @@
-import { WatchlistsPage } from '@/components/market-views'
-export default function Page() { return <WatchlistsPage /> }
+import { WatchlistsManager } from '@/components/watchlists-manager'
+export default function Page() { return <WatchlistsManager /> }
